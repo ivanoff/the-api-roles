@@ -1,0 +1,13 @@
+{
+  "name": "the-api-roles",
+  "version": "0.1.1",
+  "license": "MIT",
+  "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
+  "description": "Roles for the-api",
+  "keywords": ["the-api", "roles"],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist && tsc"
+  }
+}
